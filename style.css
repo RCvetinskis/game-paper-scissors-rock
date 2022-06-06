@@ -53,16 +53,22 @@ img{
 .hand{
     transition: 0.3s;
     padding: 10px;
+    
 }
 .hand > img{
     pointer-events: none;
    
 }
+.scale{
+    transform: scale(1.1);
+}
 .border{
     box-shadow: 0 0 5px 5px rgb(69, 69, 194);
+   
 }
 .hand:hover{
     cursor: pointer;
+    
 }
 button{
    margin: 20px;
